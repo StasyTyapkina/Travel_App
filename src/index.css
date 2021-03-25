@@ -1,0 +1,37 @@
+:root {
+  --color-black: rgb(0, 0, 0);
+  --color-grey: rgb(85, 83, 83);
+  --color-light: rgb(255, 255, 255);
+  --color-light-new: rgb(244, 245, 239);
+  --color-blue-green: rgb(28, 200, 209);
+  --color-blue-light: rgb(0, 88, 122);
+  --color-blue-dark: rgb(15, 48, 87);
+  --color-dark: rgb(36, 45, 71);
+  --color-dark-rgba: rgba(39, 39, 72, 0.6);
+  --color-blue-light-rgba: rgba(0, 133, 143, 0.3);
+  --color-submit: rgb(164, 53, 240);
+  --color-submit-hover: rgb(94, 15, 136);
+  --select-border: #777;
+  --select-focus: blue;
+  --select-arrow: var(--select-border);
+}
+
+button,
+button:active,
+button:focus,
+audio,
+video {
+  outline: none;
+}
+
+main* {
+  box-sizing: border-box;
+  background-color: inherit;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
